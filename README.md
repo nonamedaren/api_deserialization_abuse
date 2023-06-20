@@ -1,4 +1,4 @@
-# api_deserialization_abuse
+# API Deserialization Abuse
 POC code illustrating a deserialization abuse over an API
  
 Steps to produce a Deserialization attack/abuse against the API:

